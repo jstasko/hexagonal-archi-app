@@ -3,6 +3,8 @@ package sk.stasko.order.system.domain.entity;
 import sk.stasko.order.system.domain.valueObject.Money;
 import sk.stasko.order.system.domain.valueObject.ProductId;
 
+import java.util.Objects;
+
 public class Product extends BaseEntity<ProductId> {
     private String name;
     private Money price;
