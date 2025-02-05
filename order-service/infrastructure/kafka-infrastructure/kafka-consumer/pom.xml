@@ -5,20 +5,31 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>sk.stasko</groupId>
-        <artifactId>saga-system</artifactId>
+        <artifactId>kafka-infrastructure</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>infrastructure</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>kafka-infrastructure</module>
-    </modules>
+    <artifactId>kafka-consumer</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>sk.stasko</groupId>
+            <artifactId>kafka-data-config</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.avro</groupId>
+            <artifactId>avro</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
