@@ -1,9 +1,9 @@
-package sk.stasko.order.system.dataaccess.restaurant.mapper;
+package sk.stasko.order.system.dataaccess.order.mapper;
 
 import org.springframework.stereotype.Component;
-import sk.stasko.order.system.dataaccess.restaurant.entity.OrderAddressEntity;
-import sk.stasko.order.system.dataaccess.restaurant.entity.OrderEntity;
-import sk.stasko.order.system.dataaccess.restaurant.entity.OrderItemEntity;
+import sk.stasko.order.system.dataaccess.order.entity.OrderAddressEntity;
+import sk.stasko.order.system.dataaccess.order.entity.OrderEntity;
+import sk.stasko.order.system.dataaccess.order.entity.OrderItemEntity;
 import sk.stasko.order.system.domain.entity.Order;
 import sk.stasko.order.system.domain.entity.OrderItem;
 import sk.stasko.order.system.domain.entity.Product;

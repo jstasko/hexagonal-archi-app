@@ -1,8 +1,7 @@
-package sk.stasko.order.system.dataaccess.restaurant.entity;
+package sk.stasko.order.system.dataaccess.order.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
-import sk.stasko.order.system.domain.valueObject.OrderItemId;
 
 import java.math.BigDecimal;
 import java.util.Objects;

@@ -1,4 +1,4 @@
-package sk.stasko.order.system.dataaccess.restaurant.entity;
+package sk.stasko.order.system.dataaccess.order.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

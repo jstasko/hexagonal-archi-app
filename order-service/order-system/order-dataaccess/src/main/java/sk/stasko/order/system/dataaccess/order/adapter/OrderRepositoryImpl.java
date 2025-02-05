@@ -1,8 +1,8 @@
-package sk.stasko.order.system.dataaccess.restaurant.adapter;
+package sk.stasko.order.system.dataaccess.order.adapter;
 
 import org.springframework.stereotype.Component;
-import sk.stasko.order.system.dataaccess.restaurant.mapper.OrderDataAccessMapper;
-import sk.stasko.order.system.dataaccess.restaurant.repository.OrderJpaRepository;
+import sk.stasko.order.system.dataaccess.order.mapper.OrderDataAccessMapper;
+import sk.stasko.order.system.dataaccess.order.repository.OrderJpaRepository;
 import sk.stasko.order.system.domain.entity.Order;
 import sk.stasko.order.system.domain.valueObject.TrackingId;
 import sk.stasko.order.system.service.domain.ports.output.repository.OrderRepository;
