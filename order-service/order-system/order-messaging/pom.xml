@@ -23,6 +23,18 @@
             <groupId>sk.stasko</groupId>
             <artifactId>order-application-service</artifactId>
         </dependency>
+        <dependency>
+            <groupId>sk.stasko</groupId>
+            <artifactId>kafka-producer</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>sk.stasko</groupId>
+            <artifactId>kafka-consumer</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>sk.stasko</groupId>
+            <artifactId>kafka-model</artifactId>
+        </dependency>
     </dependencies>
 
 </project>
